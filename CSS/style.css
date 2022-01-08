@@ -78,4 +78,16 @@
    background: silver;
 }
 
+@keyframes policeBlink {
+   0% {color: blue;}
+   25% {color: red;}
+   50% {color: blue;}
+   75% {color: red;}
+   100% {color: blue;}
+}
 
+label:hover {
+   animation-name: policeBlink;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+}
