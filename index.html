@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>SAN 13.11.2021</title>
+   <link rel="stylesheet" href="./CSS/style.css">
+   
+</head>
+<body>
+
+<header class="header">
+   <div class="header__logo">
+      <img src="./assets/img/SAN.png" alt="logo_startowe" class="header__logo-img">
+   </div>
+   <h2 class="header__h2">
+      <span class="header__h2-color">Nagówek</span>
+</h2>
+
+</header>
+
+   <nav class="navSection1">
+      <ol class="navSection1__ul">
+         <li class="navSection1__ul-li">Jeden</li>
+         <li class="navSection1__ul-li">Dwa</li>
+         <li class="navSection1__ul-li">trzy</li>
+      </ol>
+   </nav>
+
+   <nav class="navSection2">
+      <ul class="navSection2__ul">
+         <li class="navSection2__ul-li">wartość_1</li>
+         <li class="navSection2__ul-li">wartość_2</li>
+         <li class="navSection2__ul-li">wartość_3</li>
+      </ul>
+   </nav>
+
+   <main class="main">
+      <form action="" class="main__form">
+         <label for="userName" class="main__form-userName">
+            Wpisz imie użytkownika:
+            <input type="text" id="userName" name="userName" placeholder="wpisz imie" class="main__form-inputUserName">
+         </label>
+         <br>
+         <hr>
+         <label for="userSurname" class="main__form-UserSurname">
+            Wpisz nazwisko użytkownika:
+            <input type="text" id="userName" name="userSurname" placeholder="wpisz nazwisko" class="main__form-inputUserSurname">
+         </label>
+         <br>
+         <hr>
+         <label for="birthday" class="main__form-birthday">
+            Wpisz date użytkownika:
+            <input type="date" id="userName" name="birthday" class="main__form-inputBirthday">
+         </label>
+         <br>
+         <hr>
+         <label for="salary" class="main__form-salary">
+            Wpisz oczekiwana kwotę:
+            <input type="number" id="userName" name="salary" class="main__form-inputSalary">
+         </label>
+         <br>
+         <hr>
+         <label for="description" class="main__form-description">
+            Wpisz coś o użytkowniku:
+            <textarea name="description" id="description" style="width: 200px; height: 50px;" class="main__form-textereaDescription"></textarea>
+         </label>
+         <br>
+         <hr>
+         <h4>zgoda marketingowa</h4>
+         <label for="advert" class="main__form-advert">
+            <input type="radio" name="advert" id="yes" value="yes" class="main__form-inputAdvert">Tak
+         </label>
+         <label for="advert" class="main__from-advert">
+            <input type="radio" name="advert" id="no" value="no" class="main__form-inputAdvert">Nie
+         </label>
+         <h4>zainteresowania</h4>
+         <label for="advert" class="main__form-advert">
+            <input type="checkbox" name="advert" id="football" value="football" class="main__form-inputAdvert">Piłka nożna
+         </label>
+         <label for="advert" class="main__form-advert">
+            <input type="checkbox" name="advert" id="volleyball" value="volleyball" class="main__form-inputAdvert">Siatkówka
+         </label>
+         <h4>płeć</h4>
+         <label for="gender" class="main__form-gender">wybierz z formularza
+            <select name="gender" id="gender">
+               <option value="" selected disabled>Wybierz opcje:</option>
+               <option value="man">Mezczyzna</option>
+               <option value="woman">Kobeta</option>
+            </select>
+         </label>
+         <br>
+         <hr>
+         <footer class="footer">
+            &copy; Kamil Ambrożewicz
+         </footer>
+      </form>
+   </main>
+
+
+
+</body>
+</html>
